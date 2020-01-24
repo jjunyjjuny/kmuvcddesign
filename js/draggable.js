@@ -1,6 +1,7 @@
 $(function () {
     $(".draggable").draggable({
-        stack: ".draggable"
+        stack: ".draggable",
+        handle: "div.draggable_box"
     });
 });
 
