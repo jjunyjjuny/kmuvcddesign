@@ -170,7 +170,7 @@ $(document).ready(function () {
     });
 });
 
-//toggle 10
+//toggle 11
 $(document).ready(function () {
     $(function () {
         $('.close_icon_11').click(function () {
