@@ -15,6 +15,15 @@
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
     <script src="js/jquery/jquery-ui.js"></script>
 
+    <style>
+        #v0 {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+        }
+    </style>
+
 
 </head>
 
@@ -26,231 +35,263 @@
         <img class="header_main_letter" src="img/icon/header_text_1.png">
         <img class="header_main_letter" src="img/icon/header_text_2.png">
     </header>
+    <div id="set-height"></div>
 
+    <!-- video scrolls -->
 
+    <video id="v0" , tabindex="0" , autobuffer preload>
+        <source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="Main.mp4">
+    </video>
 
+   
 
-    <!-poster-->
 
-        <div id="poster">
+    <!--poster-->
 
-            <div id="icon_box">
+    <div id="poster">
 
-                <img class="main_icon_1" src="img/poster/icon/1.png">
+        <div id="icon_box">
 
-                <img class="main_icon_2" src="img/poster/icon/2.png">
+            <img class="main_icon_1" src="img/poster/icon/1.png">
 
-                <img class="main_icon_3" src="img/poster/icon/3.png">
+            <img class="main_icon_2" src="img/poster/icon/2.png">
 
-                <img class="main_icon_4" src="img/poster/icon/4.png">
+            <img class="main_icon_3" src="img/poster/icon/3.png">
 
-                <img class="main_icon_5" src="img/poster/icon/5.png">
+            <img class="main_icon_4" src="img/poster/icon/4.png">
 
-                <img class="main_icon_6" src="img/poster/icon/6.png">
+            <img class="main_icon_5" src="img/poster/icon/5.png">
 
-                <img class="main_icon_7" src="img/poster/icon/7.png">
+            <img class="main_icon_6" src="img/poster/icon/6.png">
 
-                <img class="main_icon_8" src="img/poster/icon/8.png">
+            <img class="main_icon_7" src="img/poster/icon/7.png">
 
-                <img class="main_icon_9" src="img/poster/icon/9.png">
+            <img class="main_icon_8" src="img/poster/icon/8.png">
 
-                <img class="main_icon_10" src="img/poster/icon/10.png">
+            <img class="main_icon_9" src="img/poster/icon/9.png">
 
-                <img class="main_icon_11" src="img/poster/icon/11.png">
+            <img class="main_icon_10" src="img/poster/icon/10.png">
 
-            </div>
-
-            <div id="poster_box">
-
-                <div id="poster_1" class="draggable">
-                    
-                        <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
-                            <img class="close_icon_1" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
-                        </div>
-
-                        <img src="img/poster/poster/p_1.png">
-
-                        <div style="text-align: left; padding-left: 10px;">
-                            <img src="img/poster/text/t_1.png" style="padding-top: 9px;">
-                            <p style="font-size: 12px; margin: 0px; padding-top: 12px;">성찰의 신</p>
-                            <p style="font-size: 10px; margin: 0px; padding-top: 4px;">김경빈 유승민 정학영</p>
-                        </div>
-                    
-                </div>
-
-                <div id="poster_2" class="draggable">
-
-                    <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
-                        <img class="close_icon_2" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
-                    </div>
-
-                    <img src="img/poster/poster/p_2.png">
-
-                    <div style="text-align: left; padding-left: 10px;">
-                        <img src="img/poster/text/t_2.png" style="padding-top: 9px;">
-                        <p style="font-size: 12px; margin: 0px; padding-top: 12px;">성찰의 신</p>
-                        <p style="font-size: 10px; margin: 0px; padding-top: 4px;">김경빈 유승민 정학영</p>
-                    </div>
-                </div>
-
-                <div id="poster_3" class="draggable">
-
-                    <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
-                        <img class="close_icon_3" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
-                    </div>
-
-                    <img src="img/poster/poster/p_3.png">
-
-                    <div style="text-align: left; padding-left: 10px;">
-                        <img src="img/poster/text/t_3.png" style="padding-top: 9px;">
-                        <p style="font-size: 12px; margin: 0px; padding-top: 12px;">욕망의 신</p>
-                        <p style="font-size: 10px; margin: 0px; padding-top: 4px;">전소빈 정예나 홍유빈</p>
-                    </div>
-                </div>
-
-                <div id="poster_4" class="draggable">
-
-                    <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
-                        <img class="close_icon_4" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
-                    </div>
-
-                    <img src="img/poster/poster/p_4.png">
-
-                    <div style="text-align: left; padding-left: 10px;">
-                        <img src="img/poster/text/t_4.png" style="padding-top: 9px;">
-                        <p style="font-size: 12px; margin: 0px; padding-top: 12px;">각성의 신</p>
-                        <p style="font-size: 10px; margin: 0px; padding-top: 4px;">강세라 이정효 전한비</p>
-                    </div>
-                </div>
-
-                <div id="poster_5" class="draggable">
-
-                    <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
-                        <img class="close_icon_5" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
-                    </div>
-
-                    <img src="img/poster/poster/p_5.png">
-
-                    <div style="text-align: left; padding-left: 10px;">
-                        <img src="img/poster/text/t_5.png" style="padding-top: 9px;">
-                        <p style="font-size: 12px; margin: 0px; padding-top: 12px;">이성의 신</p>
-                        <p style="font-size: 10px; margin: 0px; padding-top: 4px;">강경석 김동영 정우근</p>
-                    </div>
-                </div>
-
-                <div id="poster_6" class="draggable">
-
-                    <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
-                        <img class="close_icon_6" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
-                    </div>
-
-                    <img src="img/poster/poster/p_6.png">
-
-                    <div style="text-align: left; padding-left: 10px;">
-                        <img src="img/poster/text/t_6.png" style="padding-top: 9px;">
-                        <p style="font-size: 12px; margin: 0px; padding-top: 12px;">고래의 신</p>
-                        <p style="font-size: 10px; margin: 0px; padding-top: 4px;">이혜연 전소현 정영혜</p>
-                    </div>
-                </div>
-
-                <div id="poster_7" class="draggable">
-
-                    <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
-                        <img class="close_icon_7" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
-                    </div>
-
-                    <img src="img/poster/poster/p_7.png">
-
-                    <div style="text-align: left; padding-left: 10px;">
-                        <img src="img/poster/text/t_7.png" style="padding-top: 9px;">
-                        <p style="font-size: 12px; margin: 0px; padding-top: 12px;">구원의 신 </p>
-                        <p style="font-size: 10px; margin: 0px; padding-top: 4px;">강채윤 김해람 장예진</p>
-                    </div>
-                </div>
-
-                <div id="poster_8" class="draggable">
-
-                    <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
-                        <img class="close_icon_8" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
-                    </div>
-
-                    <img src="img/poster/poster/p_8.png">
-
-                    <div style="text-align: left; padding-left: 10px;">
-                        <img src="img/poster/text/t_8.png" style="padding-top: 9px;">
-                        <p style="font-size: 12px; margin: 0px; padding-top: 12px;">고양이의 신</p>
-                        <p style="font-size: 10px; margin: 0px; padding-top: 4px;">김정아 이세정 하서윤</p>
-                    </div>
-                </div>
-
-                <div id="poster_9_1" class="draggable">
-
-                    <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
-                        <img class="close_icon_9_1" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
-                    </div>
-
-                    <img src="img/poster/poster/p_9_1.png">
-
-                    <div style="text-align: left; padding-left: 10px;">
-                        <img src="img/poster/text/t_9_1.png" style="padding-top: 9px;">
-                        <p style="font-size: 12px; margin: 0px; padding-top: 12px;">욕망의 신2</p>
-                        <p style="font-size: 10px; margin: 0px; padding-top: 4px;">차승현 한상준</p>
-                    </div>
-                </div>
-
-                <div id="poster_9_2" class="draggable">
-
-                    <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
-                        <img class="close_icon_9_2" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
-                    </div>
-
-                    <img src="img/poster/poster/p_9_2.png">
-
-                    <div style="text-align: left; padding-left: 10px;">
-                        <img src="img/poster/text/t_9_2.png" style="padding-top: 9px;">
-                        <p style="font-size: 12px; margin: 0px; padding-top: 12px;">욕망의 신1</p>
-                        <p style="font-size: 10px; margin: 0px; padding-top: 4px;">김채연 이채림 조민식</p>
-                    </div>
-                </div>
-
-                <div id="poster_10" class="draggable">
-
-                    <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
-                        <img class="close_icon_10" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
-                    </div>
-
-                    <img src="img/poster/poster/p_10.png">
-
-                    <div style="text-align: left; padding-left: 10px;">
-                        <img src="img/poster/text/t_10.png" style="padding-top: 9px;">
-                        <p style="font-size: 12px; margin: 0px; padding-top: 12px;">무성의 신</p>
-                        <p style="font-size: 10px; margin: 0px; padding-top: 4px;">김민지 박경아 전다원</p>
-                    </div>
-                </div>
-
-                <div id="poster_11" class="draggable">
-
-                    <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
-                        <img class="close_icon_11" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
-                    </div>
-
-                    <img src="img/poster/poster/p_11.png">
-
-                    <div style="text-align: left; padding-left: 10px;">
-                        <img src="img/poster/text/t_11.png" style="padding-top: 9px;">
-                        <p style="font-size: 12px; margin: 0px; padding-top: 12px;">어둠의 신</p>
-                        <p style="font-size: 10px; margin: 0px; padding-top: 4px;">방채원 윤소현 이상현</p>
-                    </div>
-                </div>
-
-
-            </div>
+            <img class="main_icon_11" src="img/poster/icon/11.png">
 
         </div>
 
-        <!--js-->
-        <script src="js/draggable.js"></script>
+        <div id="poster_box">
 
-</body>
+            <div id="poster_1" class="draggable">
 
-</html>
+                <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
+                    <img class="close_icon_1" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
+                </div>
+
+                <img src="img/poster/poster/p_1.png">
+
+                <div style="text-align: left; padding-left: 10px;">
+                    <img src="img/poster/text/t_1.png" style="padding-top: 9px;">
+                    <p style="font-size: 12px; margin: 0px; padding-top: 12px;">성찰의 신</p>
+                    <p style="font-size: 10px; margin: 0px; padding-top: 4px;">김경빈 유승민 정학영</p>
+                </div>
+
+            </div>
+
+            <div id="poster_2" class="draggable">
+
+                <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
+                    <img class="close_icon_2" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
+                </div>
+
+                <img src="img/poster/poster/p_2.png">
+
+                <div style="text-align: left; padding-left: 10px;">
+                    <img src="img/poster/text/t_2.png" style="padding-top: 9px;">
+                    <p style="font-size: 12px; margin: 0px; padding-top: 12px;">성찰의 신</p>
+                    <p style="font-size: 10px; margin: 0px; padding-top: 4px;">김경빈 유승민 정학영</p>
+                </div>
+            </div>
+
+            <div id="poster_3" class="draggable">
+
+                <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
+                    <img class="close_icon_3" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
+                </div>
+
+                <img src="img/poster/poster/p_3.png">
+
+                <div style="text-align: left; padding-left: 10px;">
+                    <img src="img/poster/text/t_3.png" style="padding-top: 9px;">
+                    <p style="font-size: 12px; margin: 0px; padding-top: 12px;">욕망의 신</p>
+                    <p style="font-size: 10px; margin: 0px; padding-top: 4px;">전소빈 정예나 홍유빈</p>
+                </div>
+            </div>
+
+            <div id="poster_4" class="draggable">
+
+                <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
+                    <img class="close_icon_4" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
+                </div>
+
+                <img src="img/poster/poster/p_4.png">
+
+                <div style="text-align: left; padding-left: 10px;">
+                    <img src="img/poster/text/t_4.png" style="padding-top: 9px;">
+                    <p style="font-size: 12px; margin: 0px; padding-top: 12px;">각성의 신</p>
+                    <p style="font-size: 10px; margin: 0px; padding-top: 4px;">강세라 이정효 전한비</p>
+                </div>
+            </div>
+
+            <div id="poster_5" class="draggable">
+
+                <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
+                    <img class="close_icon_5" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
+                </div>
+
+                <img src="img/poster/poster/p_5.png">
+
+                <div style="text-align: left; padding-left: 10px;">
+                    <img src="img/poster/text/t_5.png" style="padding-top: 9px;">
+                    <p style="font-size: 12px; margin: 0px; padding-top: 12px;">이성의 신</p>
+                    <p style="font-size: 10px; margin: 0px; padding-top: 4px;">강경석 김동영 정우근</p>
+                </div>
+            </div>
+
+            <div id="poster_6" class="draggable">
+
+                <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
+                    <img class="close_icon_6" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
+                </div>
+
+                <img src="img/poster/poster/p_6.png">
+
+                <div style="text-align: left; padding-left: 10px;">
+                    <img src="img/poster/text/t_6.png" style="padding-top: 9px;">
+                    <p style="font-size: 12px; margin: 0px; padding-top: 12px;">고래의 신</p>
+                    <p style="font-size: 10px; margin: 0px; padding-top: 4px;">이혜연 전소현 정영혜</p>
+                </div>
+            </div>
+
+            <div id="poster_7" class="draggable">
+
+                <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
+                    <img class="close_icon_7" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
+                </div>
+
+                <img src="img/poster/poster/p_7.png">
+
+                <div style="text-align: left; padding-left: 10px;">
+                    <img src="img/poster/text/t_7.png" style="padding-top: 9px;">
+                    <p style="font-size: 12px; margin: 0px; padding-top: 12px;">구원의 신 </p>
+                    <p style="font-size: 10px; margin: 0px; padding-top: 4px;">강채윤 김해람 장예진</p>
+                </div>
+            </div>
+
+            <div id="poster_8" class="draggable">
+
+                <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
+                    <img class="close_icon_8" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
+                </div>
+
+                <img src="img/poster/poster/p_8.png">
+
+                <div style="text-align: left; padding-left: 10px;">
+                    <img src="img/poster/text/t_8.png" style="padding-top: 9px;">
+                    <p style="font-size: 12px; margin: 0px; padding-top: 12px;">고양이의 신</p>
+                    <p style="font-size: 10px; margin: 0px; padding-top: 4px;">김정아 이세정 하서윤</p>
+                </div>
+            </div>
+
+            <div id="poster_9_1" class="draggable">
+
+                <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
+                    <img class="close_icon_9_1" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
+                </div>
+
+                <img src="img/poster/poster/p_9_1.png">
+
+                <div style="text-align: left; padding-left: 10px;">
+                    <img src="img/poster/text/t_9_1.png" style="padding-top: 9px;">
+                    <p style="font-size: 12px; margin: 0px; padding-top: 12px;">욕망의 신2</p>
+                    <p style="font-size: 10px; margin: 0px; padding-top: 4px;">차승현 한상준</p>
+                </div>
+            </div>
+
+            <div id="poster_9_2" class="draggable">
+
+                <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
+                    <img class="close_icon_9_2" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
+                </div>
+
+                <img src="img/poster/poster/p_9_2.png">
+
+                <div style="text-align: left; padding-left: 10px;">
+                    <img src="img/poster/text/t_9_2.png" style="padding-top: 9px;">
+                    <p style="font-size: 12px; margin: 0px; padding-top: 12px;">욕망의 신1</p>
+                    <p style="font-size: 10px; margin: 0px; padding-top: 4px;">김채연 이채림 조민식</p>
+                </div>
+            </div>
+
+            <div id="poster_10" class="draggable">
+
+                <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
+                    <img class="close_icon_10" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
+                </div>
+
+                <img src="img/poster/poster/p_10.png">
+
+                <div style="text-align: left; padding-left: 10px;">
+                    <img src="img/poster/text/t_10.png" style="padding-top: 9px;">
+                    <p style="font-size: 12px; margin: 0px; padding-top: 12px;">무성의 신</p>
+                    <p style="font-size: 10px; margin: 0px; padding-top: 4px;">김민지 박경아 전다원</p>
+                </div>
+            </div>
+
+            <div id="poster_11" class="draggable">
+
+                <div class="draggable_box" style="text-align: right; padding: 9px 5px 11.5px 5px;">
+                    <img class="close_icon_11" src="img/icon/close.png" width="17.264px" style="cursor: pointer; padding-right: 2px;">
+                </div>
+
+                <img src="img/poster/poster/p_11.png">
+
+                <div style="text-align: left; padding-left: 10px;">
+                    <img src="img/poster/text/t_11.png" style="padding-top: 9px;">
+                    <p style="font-size: 12px; margin: 0px; padding-top: 12px;">어둠의 신</p>
+                    <p style="font-size: 10px; margin: 0px; padding-top: 4px;">방채원 윤소현 이상현</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!--js-->
+    <script src="js/draggable.js"></script>
+     <script>
+        var frameNumber = 0,
+            // start video at frame 0
+            // lower numbers = faster playback
+            playbackConst = 500,
+            // get page height from video duration
+            setHeight = document.getElementById("set-height"),
+            // select video element         
+            vid = document.getElementById('v0');
+        // var vid = $('#v0')[0]; // jquery option
+
+        // dynamically set the page height according to video length
+        vid.addEventListener('loadedmetadata', function() {
+            setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
+        });
+
+
+        // Use requestAnimationFrame for smooth playback
+        function scrollPlay() {
+            var frameNumber = window.pageYOffset / playbackConst;
+            vid.currentTime = frameNumber;
+            window.requestAnimationFrame(scrollPlay);
+        }
+
+        window.requestAnimationFrame(scrollPlay);
+    </script>
+
+
+</body></html>
