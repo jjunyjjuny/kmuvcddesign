@@ -17,6 +17,7 @@ $(document).ready(function () {
     $(function () {
         $('.main_icon_1').click(function () {
             $('#poster_1').fadeToggle();
+            $('#poster_1').css('z-index','16');
         });
     });
 });
@@ -32,6 +33,7 @@ $(document).ready(function () {
     $(function () {
         $('.main_icon_2').click(function () {
             $('#poster_2').fadeToggle();
+            $('#poster_2').css('z-index','16');
         });
     });
 });
@@ -47,6 +49,7 @@ $(document).ready(function () {
     $(function () {
         $('.main_icon_3').click(function () {
             $('#poster_3').fadeToggle();
+            $('#poster_3').css('z-index','16');
         });
     });
 });
@@ -62,6 +65,7 @@ $(document).ready(function () {
     $(function () {
         $('.main_icon_4').click(function () {
             $('#poster_4').fadeToggle();
+            $('#poster_4').css('z-index','16');
         });
     });
 });
@@ -77,6 +81,7 @@ $(document).ready(function () {
     $(function () {
         $('.main_icon_5').click(function () {
             $('#poster_5').fadeToggle();
+            $('#poster_5').css('z-index','16');
         });
     });
 });
@@ -92,6 +97,7 @@ $(document).ready(function () {
     $(function () {
         $('.main_icon_6').click(function () {
             $('#poster_6').fadeToggle();
+            $('#poster_6').css('z-index','16');
         });
     });
 });
@@ -107,6 +113,7 @@ $(document).ready(function () {
     $(function () {
         $('.main_icon_7').click(function () {
             $('#poster_7').fadeToggle();
+            $('#poster_7').css('z-index','16');
         });
     });
 });
@@ -122,6 +129,7 @@ $(document).ready(function () {
     $(function () {
         $('.main_icon_8').click(function () {
             $('#poster_8').fadeToggle();
+            $('#poster_8').css('z-index','16');
         });
     });
 });
@@ -137,6 +145,7 @@ $(document).ready(function () {
     $(function () {
         $('.main_icon_9').click(function () {
             $('#poster_9_1').fadeToggle();
+            $('#poster_9_1').css('z-index','16');
         });
     });
 });
@@ -152,6 +161,7 @@ $(document).ready(function () {
     $(function () {
         $('.main_icon_9').click(function () {
             $('#poster_9_2').fadeToggle();
+            $('#poster_9_2').css('z-index','16');
         });
     });
 });
@@ -167,6 +177,7 @@ $(document).ready(function () {
     $(function () {
         $('.main_icon_10').click(function () {
             $('#poster_10').fadeToggle();
+            $('#poster_10').css('z-index','16');
         });
     });
 });
@@ -182,6 +193,18 @@ $(document).ready(function () {
     $(function () {
         $('.main_icon_11').click(function () {
             $('#poster_11').fadeToggle();
+            $('#poster_11').css('z-index','16');
+        });
+    });
+});
+
+
+// 클릭시 가장 앞으로
+
+$(document).ready(function () {
+    $(function () {
+        $('.draggable').click(function () {
+            $(this).css('z-index','16');
         });
     });
 });
