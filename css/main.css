@@ -50,11 +50,15 @@ header {
 #header_bottom a {
     display: inline;
     float: right;
-    margin: 10px 35px;
+    margin: 10px 28px;
 }
 
 .close {
     cursor: pointer;
+}
+
+.hover_star {
+    margin: 23px 10px;
 }
 
 /*icon*/
