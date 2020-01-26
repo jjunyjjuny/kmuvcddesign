@@ -16,6 +16,20 @@ header {
     z-index: 100;
 }
 
+.header_right {
+    float: right;
+    margin: 32px 85px;
+}
+
+.header_main_letter .one {
+    margin-left: 30px;
+}
+
+.header_main_letter .two {
+    width: 286px;
+    height: 52px;
+}
+
 #header_top {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100px;
@@ -102,6 +116,10 @@ header {
     padding-top: 2px;
 }
 
+.test_padding {
+    padding-left: 18px;
+    text-align: left;
+}
 
 #poster_1 {
     left: 20%;
