@@ -11,9 +11,9 @@
     <!--css-->
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    
+
     <!--반응형-->
-    <link  href="css/media.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
 
     <!--jquery link-->
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
@@ -26,6 +26,7 @@
             right: 0;
             width: 100%;
         }
+
     </style>
 
 
@@ -41,16 +42,16 @@
             </a>
             <img class="header_main_letter two" src="img/header/header_text_1.png" width="286px" height="52px">
             <img class="header_main_letter three" src="img/header/header_text_2.png" width="241px" height="49px">
-            
+
             <a class="header_right" href="#"><img src="img/header/header_4.png"></a>
-            <a class="header_right" href="#"><img src="img/header/header_3.png"></a>
+            <a class="header_right" href="#"><img class="wpeks" src="img/header/header_3.png"></a>
             <a class="header_right" href="#"><img src="img/header/header_2.png"></a>
             <a class="header_right" href="#"><img src="img/header/header_1.png"></a>
-            
-            
-            
+
+
+
         </div>
-        
+
         <div id="header_bottom">
             <a href="#"><img src="img/header/header_bottom_1.png"></a>
             <a href="#"><img src="img/header/header_bottom_2.png"></a>
@@ -63,14 +64,14 @@
             <a href="#"><img src="img/header/header_bottom_9.png"></a>
             <a href="#"><img src="img/header/header_bottom_10.png"></a>
             <a href="#"><img src="img/header/header_bottom_11.png"></a>
-                
+
         </div>
-        
+
     </header>
-    
+
     <!-- video scrolls -->
     <div id="set-height"></div>
-    
+
     <video id="v0" , tabindex="0" , autobuffer preload>
         <source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="Main.mp4">
     </video>
@@ -223,7 +224,7 @@
             <div id="poster_8" class="draggable">
 
                 <div class="draggable_box">
-                    <img class="close close_icon_8" src="img/icon/close.png" onmouseover="this.src='img/icon/close_h.png';" onmouseout="this.src='img/icon/close.png';"width="25px">
+                    <img class="close close_icon_8" src="img/icon/close.png" onmouseover="this.src='img/icon/close_h.png';" onmouseout="this.src='img/icon/close.png';" width="25px">
                 </div>
 
                 <img class="poster_img" src="img/poster/poster/p_8.png" width="370px" height="1000px;">
@@ -303,6 +304,21 @@
     <!--js-->
     <script src="js/draggable.js"></script>
 
+    <!--상단 드롭다운-->
+    <script>
+        $(document).ready(function() {
+            $('.wpeks').mouseover(function() {
+                $('#header_bottom').css("display", "block");
+            });
+            
+            $('#header_bottom').mouseleave(function() {
+                $('#header_bottom').css("display", "none");
+            });
+        });
+
+    </script>
+
+
     <!--video-->
     <script>
         var frameNumber = 0,
@@ -329,7 +345,10 @@
         }
 
         window.requestAnimationFrame(scrollPlay);
+
     </script>
 
 
-</body></html>
+</body>
+
+</html>

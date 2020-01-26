@@ -44,6 +44,7 @@ header {
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 80px;
+    display: none;
 }
 
 #header_bottom a {
@@ -51,7 +52,6 @@ header {
     float: right;
     margin: 10px 35px;
 }
-
 
 .close {
     cursor: pointer;
@@ -72,7 +72,6 @@ header {
     cursor: pointer;
     margin: 190px 0px;
 }
-
 
 /*poster*/
 
