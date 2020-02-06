@@ -1,0 +1,17 @@
+@import url(all.css);
+
+.star {
+    margin: 100px 0px;
+}
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 100px 0;
+}
+.img_box {
+    width: 100%;
+}
+.img_box img {
+    width: 100%;
+    margin: 50px 0;
+}
