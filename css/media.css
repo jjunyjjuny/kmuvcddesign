@@ -1,0 +1,223 @@
+@media all and (min-width:768px) and (max-width: 1920px) {
+
+    /*header*/
+    #header_top {
+        height: 75px;
+    }
+
+    #header_bottom {
+        height: 60px;
+    }
+
+    .header_main_letter {
+        margin: 16px 38px 0 38px;
+    }
+
+    .one {
+        margin-top: 12px;
+        margin-left: 30px;
+    }
+
+    .one img {
+        width: 98.149px;
+        height: 48.107px;
+    }
+
+    .two {
+        width: 214.5px;
+        height: 39px;
+    }
+
+    .three {
+        width: 180.75;
+        height: 36.75px;
+    }
+
+    .header_right {
+        margin: 25px 45px;
+    }
+
+    .header_right img {
+        height: 23.25px;
+    }
+
+    #header_bottom a {
+        margin: 16px 14px;
+    }
+
+    #header_bottom a img {
+        height: 23px;
+    }
+
+    /*icon*/
+
+    #icon_box img {
+        margin: 142.5px 0px;
+    }
+
+    .main_icon_1 {
+        width: 75px;
+        height: 102px;
+    }
+
+    .main_icon_2 {
+        width: 62.25px;
+        height: 82.5px;
+    }
+
+    .main_icon_3 {
+        width: 81px;
+        height: 111px;
+    }
+
+    .main_icon_4 {
+        width: 108.75px;
+        height: 108.75px;
+    }
+
+    .main_icon_5 {
+        width: 86.25px;
+        height: 81px;
+    }
+
+    .main_icon_6 {
+        width: 83.25px;
+        height: 77.25px;
+    }
+
+    .main_icon_9 {
+        width: 71.25px;
+        height: 108.75px;
+    }
+
+    .main_icon_7 {
+        width: 99px;
+        height: 99px;
+    }
+
+    .main_icon_8 {
+        width: 87px;
+        height: 95.25px;
+    }
+
+    .main_icon_10 {
+        width: 75px;
+        height: 105px;
+    }
+
+    .main_icon_11 {
+        width: 82.5px;
+        height: 82.5px;
+    }
+
+    /*poster*/
+    .draggable {
+        width: 300px;
+        height: 862.5px;
+        box-shadow: 0px 0px 17.5px 5px rgba(255, 255, 255, 0.75);
+    }
+
+    .poster_img {
+        width: 277.5px;
+        height: 750px;
+    }
+
+    .draggable_box {
+        width: 277.5px;
+        padding: 11px 11.25px;
+    }
+
+
+    .close {
+        width: 18.75px;
+        height: 18.75px;
+    }
+
+    .team_name {
+        height: 18.5px;
+        padding-top: 6px;
+    }
+
+    .god_name {
+        font-size: 15.3;
+        padding-top: 9.5px;
+    }
+
+    .team_member {
+        font-size: 13.5;
+    }
+
+    .test_padding {
+        padding-left: 11.25px;
+    }
+
+    /*포스터 위치*/
+    #poster_1 {
+        left: 20%;
+        top: 400px;
+    }
+
+    /*한글*/
+    #poster_2 {
+        left: 60%;
+        top: 600px;
+    }
+
+    /*덕지*/
+    #poster_3 {
+        left: 15%;
+        top: 900px;
+    }
+
+    /*각성*/
+    #poster_4 {
+        left: 55%;
+        top: 1100px;
+    }
+
+    /*라플라스*/
+    #poster_5 {
+        left: 25%;
+        top: 1300px;
+    }
+
+    /*어령*/
+    #poster_6 {
+        left: 75%;
+        top: 1400px;
+    }
+
+    /*구원*/
+    #poster_7 {
+        left: 20%;
+        top: 1800px;
+    }
+
+    /*고영*/
+    #poster_8 {
+        left: 70%;
+        top: 1900px;
+    }
+
+    /*욕망*/
+    #poster_9_1 {
+        left: 10%;
+        top: 1600px;
+    }
+
+    #poster_9_2 {
+        left: 65%;
+        top: 1600px;
+    }
+
+    #poster_10 {
+        left: 25%;
+        top: 2000px;
+    }
+
+    #poster_11 {
+        left: 75%;
+        top: 2000px;
+    }
+
+}

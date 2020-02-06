@@ -1,58 +1,14 @@
-@font-face {
-    font-family: 'SunBatang-Light';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-    background-color: black;
-}
-
+@import url(all.css);
 header {
+    z-index: 5;
+}
+#v0 {
     position: fixed;
-    top: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
-    z-index: 100;
+    z-index: -1;
 }
-
-.header_right {
-    float: right;
-    margin: 32px 85px;
-}
-
-.header_main_letter .one {
-    margin-left: 30px;
-}
-
-.header_main_letter .two {
-    width: 286px;
-    height: 52px;
-}
-
-#header_top {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100px;
-}
-
-.header_main_letter {
-    float: left;
-    margin: 22px 50px;
-}
-
-#header_bottom {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    height: 80px;
-    display: none;
-}
-
-#header_bottom a {
-    display: inline;
-    float: right;
-    margin: 10px 28px;
-}
-
 .close {
     cursor: pointer;
 }
@@ -67,6 +23,7 @@ header {
     position: absolute;
     left: 50%;
     top: 200px;
+    
 }
 
 #icon_box img {
@@ -81,6 +38,7 @@ header {
 
 #poster {
     position: relative;
+    z-index: 10;
 }
 
 .draggable {

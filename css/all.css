@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'SunBatang-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    color:white;
+}
+
+body {
+    background: black;
+}
+.container {
+    width: 950px;
+    margin: 150px auto 500px auto;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,20 @@
+@import url(all.css);
+
+.star {
+    margin: 100px 0px;
+}
+.title {
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 100px 0;
+}
+
+.content {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content p {
+    font-size: 1.5rem;
+}
