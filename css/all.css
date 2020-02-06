@@ -4,18 +4,27 @@
     font-weight: normal;
     font-style: normal;
 }
+
 * {
-    color:white;
+    color: white;
 }
 
 body {
     background: black;
 }
+
 .container {
     width: 950px;
     margin: 150px auto 500px auto;
 }
+
 .flex {
     display: flex;
     justify-content: center;
+}
+
+#header {
+    transition: top 0.3s;
+    position: fixed;
+    top: 0;
 }
