@@ -1,11 +1,5 @@
 @import url(all.css);
-body {
-    background: black;
-    background-image: url(img/background.jpg);
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-}
+
 
 .poster {
     width: 100%;
@@ -38,7 +32,16 @@ body {
     width: 100%;
     height: 300px;
     background: tomato;
-    margin-top: 20px;
-
-    
+    margin-top: 20px;    
+}
+.background {
+    width: 100%;
+    z-index: -10;
+    position: absolute;
+}
+.sticky {
+    position: fixed;
+    bottom: 0;
+    z-index: -10;
+    width: 100%
 }
