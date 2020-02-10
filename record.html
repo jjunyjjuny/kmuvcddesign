@@ -4,48 +4,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>KMUVCD 특별기획전 신전</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+    
 	<link href="css/reset.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/record.css">
+    <link href="css/header.css" rel="stylesheet">
+	<link href="css/record.css" rel="stylesheet">
 
 	<script src="jquery/jquery-3.4.1.min.js"></script>
 	<script src="jquery/jquery-ui.js"></script>
-	<script src="header.js"></script>
+	<script src="header/header.js"></script>
 </head>
 
 <body>
 	<header>
-		<style>
-	
-			.st0 {
-				opacity: 0.5;
-			}
-			.st1 {
-				fill: #FFFFFF;
-			}
-			.st2 {
-				fill: rgba(255, 255, 255, 0);
-			}
-			.st3 {
-				fill: none;
-				stroke: #FFFFFF;
-				stroke-width: 0.85;
-				stroke-miterlimit: 10;
-			}
-			.bottom_bg {
-				display: none;
-			}
-			.b_i {
-				display: none;
-			}
-			.hstar {
-				display: none;
-			}
-			.bstar {
-				display: none;
-			}
-		</style>
 		<svg id="header" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 			y="0px" viewBox="0 0 1920 132" style="enable-background:new 0 0 1920 132; position: fixed;"
 			xml:space="preserve">
@@ -1080,7 +1050,9 @@
 	
 		</svg>
 	</header>
+    
 	<div style="visibility:hidden">d</div>
+    
     <div class="container">
         <div class="star flex">
             <img src="img/star.png" alt="star">
@@ -1135,29 +1107,6 @@
             <img src="img/star.png" alt="star">
         </div>
     </div>
-
-
-    <!--상단 드롭다운-->
-    <script>
-        $(document).ready(function () {
-            $('.wpeks').mouseover(function () {
-                $('#header_bottom').css("display", "block");
-                $(".wpeks").attr("src", "img/header/header_3_h.png");
-            });
-
-            $('#header_bottom').mouseleave(function () {
-                $('#header_bottom').css("display", "none");
-                $(".wpeks").attr("src", "img/header/header_3.png");
-            });
-
-            $('.hg').mouseover(function () {
-                $('#header_bottom').css("display", "none");
-                $(".wpeks").attr("src", "img/header/header_3.png");
-            });
-
-        });
-    </script>
-
 </body>
 
 </html>
