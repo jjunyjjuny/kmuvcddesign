@@ -118,5 +118,5 @@ window.onscroll = function () {
         document.getElementById("header").style.top = "-100px";
     }
     prevScrollpos = currentScrollPos;
+    myFunction()
 }
-
