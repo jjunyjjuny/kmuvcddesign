@@ -4,19 +4,23 @@
 .poster {
     width: 100%;
 }
+
 .poster img {
     width: 100%;
 }
+
 .star {
     display: flex;
     justify-content: center;
 }
+
 .info {
     margin: 15rem auto;
     width: 80%;
     color: white;
     font-size: 2rem;
 }
+
 .info .title {
     text-align: center;
     margin: 10rem 0;
@@ -24,6 +28,7 @@
     font-size: 3rem;
     font-weight: bold;
 }
+
 .info_box {
     margin: 10rem 0;
     text-align: center;
@@ -31,12 +36,15 @@
     line-height: 4rem;
     letter-spacing: -0.2rem;
 }
+
 .info_box>div {
     margin: 5rem 0;
 }
+
 .info_box div p {
     line-height: 1.5em
 }
+
 .content_box p {
     font-weight: lighter;
     margin-top: 3rem;
@@ -48,15 +56,18 @@
 .img {
     width: 100%;
 }
+
 .img img {
     width: 100%;
     margin: 3rem 0;
 }
+
 .background {
     width: 100%;
     z-index: -10;
     position: absolute;
 }
+
 .sticky {
     position: fixed;
     bottom: 0;
