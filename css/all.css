@@ -11,11 +11,13 @@
 
 body {
     background: black;
+    font-family: 'SunBatang-Light';
 }
 
 .container {
     width: 950px;
     margin: 150px auto 500px auto;
+    
 }
 
 .flex {

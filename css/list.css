@@ -1,20 +1,41 @@
 @import url(all.css);
 
 .star {
-    margin: 100px 0px;
+    margin: 10rem 0px;
 }
+
 .title {
     font-size: 5rem;
     font-weight: 800;
-    margin: 100px 0;
+    margin: 10rem 0;
+}
+
+.content_box {
+    margin-bottom: 15rem;
 }
 
 .content {
-    margin: 50px;
+    margin: 5rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .content p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    letter-spacing: -0.1rem;
+    word-spacing: -0.1rem;
+}
+
+.t_1 {
+    height: 7.5rem;
+}
+
+.t_2 {
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.t_3 {
+    height: 2.5rem;
 }
