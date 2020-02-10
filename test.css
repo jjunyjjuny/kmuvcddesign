@@ -1,0 +1,33 @@
+body
+    {
+    background: black url(background.jpg) no-repeat 0 100px fixed;
+}
+body {
+    overflow: scroll;
+}
+
+.logo
+    {
+    background: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 25px;
+    width:200%;
+}
+
+img
+    {
+    width: 200%;
+    height: auto;
+    position:fixed; 
+    top: 100px; 
+    left: 0;
+    z-index: -1;
+}
+
+.text
+    {
+    color: white;
+    min-height: 1500px;
+}
