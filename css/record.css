@@ -25,3 +25,14 @@
 .content_box {
     margin-bottom: 15rem;
 }
+
+.bg {
+    background: url(../img/temple/background.jpg) no-repeat;
+    background-size: 100% auto;
+    position: fixed;
+    width: 100%;
+    height: 300%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

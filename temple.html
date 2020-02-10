@@ -1038,10 +1038,11 @@
 
         </svg>
     </header>
-
+ 
+	<div class="bg"></div>
     
-	<img src="img/temple/background.jpg" alt="background" class="background" id="background">
 	<div style="visibility:hidden">d</div>
+    
 	<div class="container">
 		<div class="poster">
 			<img src="img/temple/poster.jpg" alt="background">
@@ -1135,10 +1136,32 @@
 	</script>
     
     <script type="text/javascript">
-  $(window).resize(function(){resizeYoutube();});
-  $(function(){resizeYoutube();});
-  function resizeYoutube(){ $("iframe").each(function(){ if( /^https?:\/\/www.youtube.com\/embed\//g.test($(this).attr("src")) ){ $(this).css("width","100%"); $(this).css("height",Math.ceil( parseInt($(this).css("width")) * 480 / 854 ) + "px");} }); }
-</script>
+        $(window).resize(function() {
+            resizeYoutube();
+        });
+        $(function() {
+            resizeYoutube();
+        });
+
+        function resizeYoutube() {
+            $("iframe").each(function() {
+                if (/^https?:\/\/www.youtube.com\/embed\//g.test($(this).attr("src"))) {
+                    $(this).css("width", "100%");
+                    $(this).css("height", Math.ceil(parseInt($(this).css("width")) * 480 / 854) + "px");
+                }
+            });
+        }
+    </script>
+    <script type="text/javascript">
+        $(window).scroll(function(e) {
+            parallax();
+        });
+
+        function parallax() {
+            var scrolled = $(window).scrollTop();
+            $('.bg').css('top', -(scrolled * 0.2) + 'px');
+        }
+    </script>
 </body>
 
 </html>
