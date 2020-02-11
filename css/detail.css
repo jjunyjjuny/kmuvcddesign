@@ -1,5 +1,6 @@
 @import url(all.css);
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC:200,300&display=swap');
 
 .poster {
     width: 100%;
@@ -12,6 +13,10 @@
 
 .zoom {
     width: 65rem;
+}
+
+.zoom2 {
+    width: 90rem;
 }
 
 .bigsmall {
@@ -35,11 +40,11 @@
 .star {
     display: flex;
     justify-content: center;
-    padding: 10rem 0 3rem 0;
+    margin: 15rem 0 15rem 0;
 }
 
 .info {
-    margin: 0rem auto;
+    margin: 0 auto 10rem auto;
     width: 80%;
     color: white;
     font-size: 2rem;
@@ -47,10 +52,8 @@
 
 .info .title {
     text-align: center;
-    margin: 10rem 0;
+    margin: 5rem 0;
     color: white;
-    font-size: 3rem;
-    font-weight: bold;
 }
 
 .info_box {

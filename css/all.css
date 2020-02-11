@@ -5,13 +5,22 @@
     font-style: normal;
 }
 
+
 * {
     color: white;
 }
 
+header {
+    z-index: 2000;
+}
+
+header svg {
+    z-index: 2000;
+}
+
 body {
     background: black;
-    font-family: 'SunBatang-Light';
+    font-family: 'SunBatang-Light', 'Noto Serif SC';
 }
 
 .container {
