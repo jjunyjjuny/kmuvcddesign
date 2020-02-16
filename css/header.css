@@ -10,6 +10,17 @@
     fill: rgba(255, 255, 255, 0);
 }
 
+.audioplay{
+    fill: rgb(20, 0, 255);
+    cursor: pointer;
+}
+
+.audiostop{
+    fill: rgb(255, 0, 0);
+    cursor: pointer;
+    display: none;
+}
+
 .st3 {
     fill: none;
     stroke: #FFFFFF;

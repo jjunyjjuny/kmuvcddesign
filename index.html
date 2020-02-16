@@ -1046,6 +1046,15 @@
 					</g>
 				</g>
 			</a>
+            
+            <g class="audioplay">
+				<rect x="710.48" y="0.41" width="75" height="75" />
+			</g>
+            
+            <g class="audiostop">
+				<rect x="710.48" y="0.41" width="75" height="75" />
+			</g>
+	
 	
 		</svg>
 	</header>
@@ -1309,8 +1318,28 @@
         window.requestAnimationFrame(scrollPlay);
 
     </script>
+    
+    <!--audio-->
+    <script>
+        var myaudio = new Audio('audio/02.frommark_kmuvcd.mp3');
 
-
+        $(document).ready(function() {
+            $('.audioplay').click(function() {
+                $('.audioplay').css('display','none')
+                $('.audiostop').css('display','block')
+                    myaudio.play();
+            });
+            
+            $('.audiostop').click(function() {
+                $('.audiostop').css('display','none')
+                $('.audioplay').css('display','block')
+                    myaudio.pause();
+            });
+        });
+        
+    </script>
+    
+    
 </body>
 
 </html>
