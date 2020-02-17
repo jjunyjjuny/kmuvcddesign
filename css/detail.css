@@ -8,7 +8,8 @@
 }
 
 .poster img {
-    cursor: pointer;
+    cursor: url(../img/cursor_2.png) 32 32, pointer;
+
 }
 
 .zoom {

@@ -32,8 +32,9 @@ header {
     left: 50%;
     transform: translateX(-50%);
     display: block;
-    cursor: pointer;
+    cursor: url(../img/cursor_2.png) 32 32, pointer;
     margin: 19rem 0px;
+
 }
 
 /*poster*/
@@ -65,6 +66,9 @@ header {
     justify-content: flex-end;
 }
 
+.draggable_box>img {
+    cursor: url(../img/cursor_2.png) 32 32, pointer;
+}
 .poster_img {
     width: 95%;
     height: auto;

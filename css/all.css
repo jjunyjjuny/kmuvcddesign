@@ -12,8 +12,12 @@ html {
     cursor: url(../img/cursor_1.png) 32 32, auto;
 }
 a {
-    cursor: url(../img/cursor_2.png) 32 32, auto;
+    cursor: url(../img/cursor_2.png) 32 32, pointer;
+ }
+.can_click {
+    cursor: url(../img/cursor_2.png) 32 32, pointer;
 }
+
 header {
     z-index: 2000;
 }
