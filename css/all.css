@@ -8,7 +8,12 @@
 * {
     color: white;
 }
-
+html {
+    cursor: url(../img/cursor_1.png) 32 32, auto;
+}
+a {
+    cursor: url(../img/cursor_2.png) 32 32, auto;
+}
 header {
     z-index: 2000;
 }
