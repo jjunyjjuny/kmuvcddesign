@@ -47,8 +47,7 @@ header {
 .draggable {
     font-family: 'SunBatang-Light';
     position: absolute;
-    width: 40rem;
-    height: 115rem;
+    width: 25rem;
     text-align: center;
     background-color: black;
     box-shadow: 0px 0px 2rem 0.5rem rgba(255, 255, 255, 0.75);
@@ -57,12 +56,22 @@ header {
 }
 
 .draggable_box {
-    width: 37rem;
+    box-sizing: border-box;
+    width: 100%;
     cursor: grab;
     text-align: right;
     padding: 1.1rem 1.5rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.poster_img {
+    width: 95%;
+    height: auto;
+}
+.test_padding {
+    margin: 12px 0 15px 0;
+}
 .team_name {
     height: 2.3rem;
     padding-top: 0.9rem;
@@ -133,22 +142,22 @@ header {
 }
 
 /*욕망*/
-#poster_9_1 {
+#poster_9 {
     left: 10%;
     top: 220rem;
 }
 
-#poster_9_2 {
-    left: 65%;
-    top: 220rem;
-}
 
 #poster_10 {
     left: 25%;
     top: 280rem;
 }
 
-#poster_11 {
+#poster_11_1 {
+    left: 10%;
+    top: 300rem;
+}
+#poster_11_2 {
     left: 65%;
     top: 300rem;
 }
