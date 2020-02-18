@@ -15,6 +15,10 @@
 </head>
 
 <body>
+    <div class="loading">
+        <img class="loading" src="img/loadign_page.gif" alt="loading">
+    </div>
+    
 	<header>
 		<svg id="header" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 			x="0px" y="0px" viewBox="0 0 1920 132" style="enable-background:new 0 0 1920 132; position: fixed;"
@@ -1318,6 +1322,13 @@
 		</div>
 
 	</div>
+    
+    <script>
+        $(window).load(function() {
+            $(".loading").fadeOut();
+            $('body').css('overflow','scroll');
+        });
+    </script>
 
 	<!--js-->
 	<script src="js/draggable.js"></script>
