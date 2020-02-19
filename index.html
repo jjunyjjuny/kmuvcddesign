@@ -8,8 +8,6 @@
 	<link href="css/reset.css" rel="stylesheet">
 	<link href="css/header.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
-    
-    <link rel="preload" href="video/main.mp4" as="video" crossorigin="crossorigin"> 
 
 	<script src="jquery/jquery-3.4.1.min.js"></script>
 	<script src="jquery/jquery-ui.js"></script>
@@ -1066,8 +1064,10 @@
 	<!-- video scrolls -->
 	<div id="set-height"></div>
     
-	<video id="v0" , tabindex="0" , autobuffer preload>
-		<source type="video/mp4; codecs=&quot;vp8, vorbis&quot;" src="video/main.mp4">
+	<video id="v0" tabindex="0" autobuffer="autobuffer" preload="preload">
+	    <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src="video/main_2.mp4">
+	    </source>
+	    <p>Sorry, your browser does not support the &lt;video&gt; element.</p>
 	</video>
 
 	<!--poster-->
