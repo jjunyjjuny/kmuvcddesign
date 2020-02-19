@@ -1065,7 +1065,7 @@
 	<div id="set-height"></div>
     
 	<video id="v0" tabindex="0" autobuffer="autobuffer" preload="preload">
-	    <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src="video/main_2.mp4">
+	    <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src="video/main.mp4">
 	    </source>
 	    <p>Sorry, your browser does not support the &lt;video&gt; element.</p>
 	</video>
@@ -1342,7 +1342,7 @@
         var windowheight = $(window).height() - 20;
 
 
-        var prevScrollpos = window.pageYOffset / 400;
+        var prevScrollpos = window.pageYOffset / 100;
         var currentScrollPos = prevScrollpos;
         var accel = 0;
 
@@ -1356,7 +1356,7 @@
 
         window.onscroll = function() {
             //Set the video position that we want to end up at:
-            currentScrollPos = window.pageYOffset / 400;
+            currentScrollPos = window.pageYOffset / 100;
             
             if (prevScrollpos > currentScrollPos) {
             document.getElementById("header").style.top = "0";
@@ -1377,7 +1377,7 @@
 
             //move the blue dot to a position across the side of the screen
             //that indicates where the current video scroll pos is.  
-            time.css('top', 10 + (prevScrollpos / 5500 * 400 * windowheight));
+            time.css('top', 10 + (prevScrollpos / 5500 * 100 * windowheight));
 
             //update video playback
             vid.currentTime = prevScrollpos;
