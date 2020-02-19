@@ -86,8 +86,6 @@ $(document).ready(function () {
     });
 });
 
-
-
 $(document).ready(function () {
     $('.t_r_3').mouseover(function () {
         $('#tstar_3').css("display", "block");

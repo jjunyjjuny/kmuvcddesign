@@ -9,7 +9,7 @@ header {
 }
 
 #set-height {
-    height: 3500px;
+    height: 400px;
 }
 
 .loading {
@@ -23,8 +23,6 @@ header {
     background-size: 80%;
     background-position: center center;
 }
-
-/*
 
 #time {
     position: fixed;
@@ -49,7 +47,6 @@ header {
     border-radius: 20px;
     background-color: rgba(255, 0, 0, 0.5);
 }
-*/
 
 
 #v0 {
@@ -90,7 +87,7 @@ header {
 #poster {
     position: relative;
     z-index: 10;
-    top: 300px;
+    top: 3300px;
 }
 
 .draggable {
