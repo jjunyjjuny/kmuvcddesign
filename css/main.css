@@ -9,7 +9,7 @@ header {
 }
 
 #set-height {
-    height: 400px;
+    height: 0px;
 }
 
 .loading {
@@ -87,7 +87,7 @@ header {
 #poster {
     position: relative;
     z-index: 10;
-    top: 3300px;
+    top: 3000px;
 }
 
 .draggable {
