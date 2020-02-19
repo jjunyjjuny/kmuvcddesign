@@ -1342,7 +1342,7 @@
         var windowheight = $(window).height() - 20;
 
 
-        var prevScrollpos = window.pageYOffset / 100;
+        var prevScrollpos = window.pageYOffset / 400;
         var currentScrollPos = prevScrollpos;
         var accel = 0;
 
@@ -1356,7 +1356,7 @@
 
         window.onscroll = function() {
             //Set the video position that we want to end up at:
-            currentScrollPos = window.pageYOffset / 100;
+            currentScrollPos = window.pageYOffset / 400;
             
             if (prevScrollpos > currentScrollPos) {
             document.getElementById("header").style.top = "0";
@@ -1377,7 +1377,7 @@
 
             //move the blue dot to a position across the side of the screen
             //that indicates where the current video scroll pos is.  
-            time.css('top', 10 + (prevScrollpos / 5500 * 100 * windowheight));
+            time.css('top', 10 + (prevScrollpos / 5500 * 400 * windowheight));
 
             //update video playback
             vid.currentTime = prevScrollpos;
