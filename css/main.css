@@ -143,6 +143,8 @@ header {
     text-align: left;
 }
 
+
+/*어둠*/
 #poster_1 {
     left: 20%;
     top: 20rem;
@@ -154,15 +156,15 @@ header {
     top: 60rem;
 }
 
-/*덕지*/
+/*각성*/
 #poster_3 {
     left: 15%;
-    top: 100rem;
+    top: 90rem;
 }
 
-/*각성*/
+/*이성*/
 #poster_4 {
-    left: 55%;
+    left: 58%;
     top: 120rem;
 }
 
@@ -172,40 +174,41 @@ header {
     top: 150rem;
 }
 
-/*어령*/
+/*욕망*/
 #poster_6 {
     left: 65%;
     top: 180rem;
 }
 
-/*구원*/
+/*고래*/
 #poster_7 {
     left: 20%;
-    top: 260rem;
-}
-
-/*고영*/
-#poster_8 {
-    left: 70%;
-    top: 270rem;
-}
-
-/*욕망*/
-#poster_9 {
-    left: 10%;
     top: 220rem;
 }
 
+/*구원*/
+#poster_8 {
+    left: 70%;
+    top: 250rem;
+}
 
-#poster_10 {
-    left: 25%;
+/*고영*/
+#poster_9 {
+    left: 10%;
     top: 280rem;
 }
 
+/*젠더리스*/
+#poster_10 {
+    left: 58%;
+    top: 290rem;
+}
+
 #poster_11_1 {
-    left: 10%;
+    left: 18%;
     top: 300rem;
 }
+
 #poster_11_2 {
     left: 65%;
     top: 300rem;

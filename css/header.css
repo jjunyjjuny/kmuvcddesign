@@ -10,13 +10,12 @@
     fill: rgba(255, 255, 255, 0);
 }
 
-.audioplay{
-    fill: rgb(20, 0, 255);
+.audioplay {
     cursor: pointer;
+    
 }
 
-.audiostop{
-    fill: rgb(255, 0, 0);
+.audiostop {
     cursor: pointer;
     display: none;
 }
@@ -42,4 +41,8 @@
 
 .bstar {
     display: none;
+}
+
+.cls-2 {
+    fill: #fff;
 }
